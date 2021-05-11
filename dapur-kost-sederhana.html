@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Dapur Kost Sederhana
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Kang Hamdan"
+  },
+  "headline": "Dapur Kost Sederhana",
+  "datePublished": "2021-05-10",
+  "image": "https://i.pinimg.com/originals/97/a4/47/97a447c6c690e4a3415c81dc84197e2a.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gambar Desain Rumah",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=dapur+kost+sederhana",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<script type='text/javascript' src='//pl16164237.highperformancecpmnetwork.com/46/fc/8f/46fc8f0cb3be5e854f0e7f595f13a603.js'></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Dapur Kost Sederhana
+            </a>
+        </h1>
+        <p>
+                            Gambar Desain Rumah. Cari Gambar Desain Rumah? Cari Aja disini.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4526973,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4526973&amp;101" alt="free counter with statistics" border="0" /></a></noscript>
+<!-- Histats.com  END  -->        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Dapur Kost Sederhana</strong>. Dapur outdoor minimalis sederhana. Salah satu caranya yaitu gunakan saja kitchen island.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/originals/19/6f/19/196f199122f2a65d1e19faf741aa76f9.png" alt="Pilihan Cara Menata Dapur Tanpa Kitchen Set Sederhana Di 2021 Dapur Kecil Dapur Dekorasi Dapur Kecil" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXG-4Z3B5dahLVFAoocezM0KgRkbMUzV3nUo2oW2N9AbnAtYRQTZwq2o6vV13HoTnq-l4';">
+        <figcaption>Pilihan Cara Menata Dapur Tanpa Kitchen Set Sederhana Di 2021 Dapur Kecil Dapur Dekorasi Dapur Kecil from id.pinterest.com</figcaption>
+    </figure>
+        <p>
+        Desain dapur minimalis sederhana juga tidak membutuhkan banyak peralatan. Poin pembahasan 30 Konsep Dekorasi Kamar Kost Dapur Dekorasi Kamar adalah. Dapur mini berbentuk L.
+    </p>
+    <h3>Jika diperlukan kamu bisa menambahkan kabinet untuk menyimpan alat masak agar dapur terlihat lebih rapi.</h3>
+    <p>Namun kamu nggak usah khawatir sebab keterbatasan tersebut pun mampu teratasi dengan baik dengan inspirasi dapur minimalis sederhana berikut ini. Desain dapur kecil dengan meja makan mini bar. Dapur sederhana yang tidak membutuhkan banyak ruangan karena hanya terdiri dari satu kitchen set saja. Berikutnya ada dapur outdoor bergaya modern minimalis dengan tema monokrom yang diberi pembatas berupa pintu kaca berukuran besar.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Rumah Kost 2 Lantai Terbaru Cat Rumah Minimalis Desain Rumah Denah Rumah Rumah" src="https://i.pinimg.com/564x/bf/f0/aa/bff0aa52383c3ddd88625bcd253901b8.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpomD9dZX0FF656MR_9dmsufZpgAHJURwuVkADxrqRXsXvKG5osS5CBX7oWC77sGW-BM';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Menu Sahur Sederhana Mudah dan Lezat.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Daftar Harga Kitchen Set Minimalis Murah Terbaru 2020 Di 2020 Dapur Rumah Rak Dapur" src="https://i.pinimg.com/originals/83/c0/e9/83c0e99da93be6eb2523fb9b43da0e07.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMm-qCFHePdWH4CIFTDzu-nAaO1jt_VFZh2-umn7ymDM9RqflzFBfcOjmdJviWMFONr8';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Cukup sederhana dan tidak membutuhkan banyak tempat.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Rumah Modern Di Instagram Good Morning Credit Erawaty Era Dekorasid Rumah Pallet Sweet Home Rumah Nyaman" src="https://i.pinimg.com/originals/c4/ea/b7/c4eab7c765b192d082226b62a5da3b29.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxhBE-q3vFHsOSK9iRYr9sNrSPoH9lz4GoppLNzMABzDTQHIfnYSw4TjBs-jxhHgZC06g';" />
+        <small>Source: ar.pinterest.com</small>
+                    <p>Lihat juga resep Tteokbokki Kue beras dari Korea ala Dapur Anak Kos enak lainnya.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Dapur Interior Rumah Dan Kost Modern 2 Lantai Ibu Wenny Di Jakarta Di 2020 Desain Dapur Interior Interior Rumah" src="https://i.pinimg.com/originals/3a/90/cd/3a90cdea8cf07b522e3aba568369c3a9.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR__35Qbx6ElayV_oyTmQZNrR7FRhL-Le6KqEHh2dkY7c2QNsXNyXn3zPJhSbyYA4jkN-w';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Dekorasi kamar kost murah desain kamar kost kamar mandi dalam dan dapur dekorasi kamar kost sederhana dan murah desain kamar kost kreatif desain kamar kost rapih biaya murah desain kamar kost 3x4 kamar mandi dalam dan dapur desain kamar kost lesehan desain kamar kost 4x3.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Denah 2 Blok Rumah Kos Yang Berdempetan Namun Terkesan Lebih Luas Dan Longgar Desain Kamar Hotel Desain Rumah Bungalow Arsitektur" src="https://i.pinimg.com/originals/f9/3b/3a/f93b3a9a5191ce195fa50560fb20c59d.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTJ7yYz7UkDgGr1oauvkq6bmzFnTfw8mxnytTi5llSuPE3RU4mSggXjpZZb8XMOLiR2zw';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Dapur outdoor minimalis sederhana.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin Oleh Sofia Nissa Di Desain Interior Rumah Di 2020 Interior Dapur Dapur Keramik Dinding" src="https://i.pinimg.com/564x/60/44/8a/60448a748928f3fa3922be87a7624e06.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfexaNcGwq0S-2_XXkubKoBuDso1m7JV7pnGOCIOQnu-a53RYWKu1YfDIlsfJ1ZXAMdBo';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Minimal kompor wastafel cuci piring dan sedikit ruang untuk meletakan bahan makanan saja sudah cukup.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Dapur Minimalis Supaya Terlihat Luas Model Dapur Desain Dapur Apartemen Minimalis" src="https://i.pinimg.com/originals/97/a4/47/97a447c6c690e4a3415c81dc84197e2a.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoPyVZzATOxhcaJvUtWiRjNbu2g4WzZSAoD3V05UoZrNPlfdeicuM1VaEsin-2s3ygCdk';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Dengan memakai Cookpad kamu menyetujui Kebijakan Cookie dan Ketentuan Pemakaian.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Kumpulan Desain Dapur Apartemen Terbaru 2016 Bar Mini Dapur Mini Desain Dapur" src="https://i.pinimg.com/originals/a1/d7/c9/a1d7c9df9a02b489fc7e9658b96d38ac.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc1zTV8TX73XZBQEctRnfy8_qu8M9ZmPenly9-uP12BLVSb-JFpeoJIxao4GgGNZF-aVc';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>58 resep dapur anak kos ala rumahan yang mudah dan enak dari komunitas memasak terbesar dunia.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Membangun Rumah Kost Kostan Dari Sederhana Hingga Mewah Desain Tipe Rumah Desain Dapur Modern Dapur Rumah Dapur Minimalis" src="https://i.pinimg.com/474x/ac/17/52/ac1752805e9c78ddeee6dade78ddb783.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wzc0OBmyd7-tafDH5JPm20sZh2jPxF3RdydujpUxVQLDsYk0OmwLHWtOtq1O3mwx3PY';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Jika diperlukan kamu bisa menambahkan kabinet untuk menyimpan alat masak agar dapur terlihat lebih rapi.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/desain-rumah-kotak.html"><i>&larr; desain rumah kotak</i></a>
+                                                                    
+                                        <a href="/denah-rumah-banjar.html"><i>denah rumah banjar &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <script type='text/javascript' src='//pl16217656.highperformancecpmnetwork.com/67/ee/79/67ee79b0d4bcd736fa718802dc4878c9.js'></script>
+            <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>
